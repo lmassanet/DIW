@@ -371,10 +371,56 @@ footer a {
     flex-wrap: wrap;
   }
   .hero{
-    width:60%;
+    max-width:60%;
   }
   .weather{
-    width:40%;
-    order: 1;
+    max-width:60%;
+  }
+  .top-news{
+    max-width: 60%;
+  }
+  .scores{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width:740px){
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero{
+    max-width:60%;
+  }
+  .weather{
+    max-width:70%;
+  }
+  .scores{
+    min-width: 40%;
+  }
+  .top-news{
+    max-width: 40%;
+  }
+}
+@media screen and (min-width:960px){
+  body{
+    max-width:80%;
+    margin: 0 auto;
+  }
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hero{
+    max-width:60%;
+  }
+  .weather{
+    max-width:70%;
+  }
+  .scores{
+    min-width: 40%;
+  }
+  .top-news{
+    max-width: 40%;
   }
 }
