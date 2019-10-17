@@ -1,6 +1,4 @@
-*{
-    border: 1px solid red;
-}
+
 .container-fluid{
     padding : 0;
 }
@@ -12,6 +10,7 @@
 .row{
     margin: 0;
 }
+/*****HEADER*******/
 .primer_menu{
     width:100%;
     height: 35px;
@@ -55,7 +54,6 @@
     align-items: center;
     
 }
-
 .segundo_menu .col-md-3{
     padding:0;
 }
@@ -76,7 +74,6 @@
     color:white;
     border-radius: 35%;   
 }
-
 .navegacion{
     min-width: 580px;
 }
@@ -85,12 +82,15 @@
     text-decoration-line: none;
 }
 
+/****IMAGEN PRINCIPAL****/
 .vuelta_al_cole{
     width:100%;
 }
 .img_vuelta{
     width: 100%;
 }
+
+/***ICONOS DEBAJO IMAGEN PRINCIPAL****/
 .ventas p{
     font-size: 14px;
     border-left: 1px solid grey;
@@ -109,11 +109,15 @@
 .icono{
     padding-right: 5px;
 }
+
+/***IMAGENES DE LA SECCION PRINCIPAL***/
 .img_publicidad{
     width: 100%;
     padding:5px;
 }
 
+
+/****FOOTER****/
 .menu_footer{
     list-style-type: none;
     padding:5px;
@@ -128,7 +132,6 @@
     text-decoration-line: none;
     font-size: 12px;
 }
-
 .email{
     border-radius: 0%;
     width:85%;
@@ -144,7 +147,6 @@
     flex-wrap: nowrap;
     padding: 0;
 }
-
 footer p{
     font-size:12px;
 }
@@ -156,7 +158,6 @@ footer p{
     font-size: 16px;
     color: #56af31;
 }
-
 .pago{
     display: flex;
     justify-content: flex-end;
@@ -165,15 +166,18 @@ footer p{
     max-width: 100%;
     max-height: 80%;
 }
+
+/***MENU HAMBURGUER***/
 .hamburguer{
     display: none;
 }
 .hamburguer .fas{
     font-size: 150%;
-    padding-top:3%;
 }
+
+
 /* MEDIA QUERYS*/
-@media screen and (max-width:576px){
+@media screen and (max-width:576px){ /*Punto de ruptura en 576px*/
     .primer_menu p{
         display: none;
     }
@@ -208,10 +212,11 @@ footer p{
     .pago{
         justify-content: center;
     }
+    
 
 }
 
-@media screen and (max-width:875px){
+@media screen and (max-width:875px){ /*Punto de ruptura en 875px*/
     .inicio{
        display:flex;
        flex-wrap: wrap;
