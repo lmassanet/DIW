@@ -1,0 +1,37 @@
+/***HEADER***/
+.menu-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-link{
+    color:black;
+}
+.nav-home{
+    color:rgb(58, 58, 236);
+}
+.contacto{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contacto i{
+    padding: 7px;
+}
+.contacto .fab{
+    color:grey;
+}
+.contacto .fas{
+    color:grey;
+}
+.fa-search{
+    color:rgb(58, 58, 236);
+}
+i{
+    border:none;
+}
+/**MAIN**/
+
+
+
+/***FOOTER***/
