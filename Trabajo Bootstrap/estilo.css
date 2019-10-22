@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "WebFont";
+    src: url("Font/fontawesome-webfont.woff");
+  }
+*{
+    font-family: "WebFont";
+}
+h5{
+    color:grey;
+}
+
 /***HEADER***/
 .menu-header{
     display: flex;
@@ -24,6 +35,9 @@
 .contacto .fas{
     color:grey;
 }
+.dropdown-menu{
+    border-color:rgb(58, 58, 236);
+}
 .fa-search{
     color:rgb(58, 58, 236);
 }
@@ -31,7 +45,146 @@ i{
     border:none;
 }
 /**MAIN**/
+main{
+    margin-top:5%;
+}
+.fondo-montana{
+    background-image: url(Imagenes/slider-bg.png);
+    background-repeat: repeat-x;
+    background-position-y: 15%;
+}
 
+.btn-sign-up{
+    color: rgb(58, 58, 236);
+    border-color: rgb(58, 58, 236);
+    border-radius: 10%;
+    padding:8px 15px;
+}
+.creative{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.texto-creative{
+    margin-top:5%;
+}
+.mountain{
+    width:90%;
+}
+.casa{
+    position: relative;
+    top: -26%;
+    right: 2%;
+    width: 61%;
+}
+.pajaros1{
+    position: relative;
+    top: -36%;
+    left: 5%;
+    width: 19%;
+}
+.pajaros2{
+    position: relative;
+    top: -45%;
+    right: 7%;
+    width: 10%;
+}
+.sol{
+    position: relative;
+    top: -62%;
+    left: 25%;
+    width: 13%;
+}
+
+.icons{
+    height:120px;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.alinear-centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.centro{
+    text-align: center;
+}
+.fondo-tour{
+    background-image: url(Imagenes/tour-bg.png);
+}
+.texto{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+}
+.triangle-template{
+    display: flex;
+    align-items: center;
+}
+.imagenes{
+    width:100%;
+}
+.texto-der {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.texto-izq{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.derecha{
+    text-align: end;
+}
+.align-center{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.texto-centro{
+    text-align: center;
+}
+.espacios-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 /***FOOTER***/
+.fondo-footer{
+    background-image: url(Imagenes/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.under-image{
+    width:100%;
+}
+
+.rojo{
+    color:red;
+}
+.comillas{
+    font-size: 25px;
+}
+.text{
+    width:100%;
+}
+.btn-submit{
+    width:100%;
+    border-radius:3%;
+    padding: 5px;
+    color:white;
+    background-color: rgb(72, 72, 204);
+}
+.blanco{
+    color:White;
+}
+.negro{
+    color:black;
+}
