@@ -4,6 +4,7 @@
   }
 *{
     font-family: "WebFont";
+    border: 1px solid red;
 }
 h5{
     color:grey;
@@ -171,6 +172,11 @@ main{
 }
 .comillas{
     font-size: 25px;
+}
+.fotos-footer{
+    width:100%;
+    max-width: 90px;
+    max-height: 90px;
 }
 .text{
     width:100%;
