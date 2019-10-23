@@ -4,10 +4,12 @@
   }
 *{
     font-family: "WebFont";
-    border: 1px solid red;
 }
 h5{
     color:grey;
+}
+.container{
+    width:90%;
 }
 
 /***HEADER***/
@@ -15,6 +17,18 @@ h5{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    min-width:600px;
+}
+.azul{
+    color:rgb(58, 58, 236);
+    border: 1px solid rgb(58, 58, 236);
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+.logo{
+    width:150px;
+    height: 50px;
+    padding-right:20px;
 }
 .nav-link{
     color:black;
@@ -127,6 +141,10 @@ main{
 .imagenes{
     width:100%;
 }
+.imagenHappyClients{
+    width:100%;
+    max-width: 230px;
+}
 .texto-der {
     display: flex;
     align-items: flex-end;
@@ -177,9 +195,14 @@ main{
     width:100%;
     max-width: 90px;
     max-height: 90px;
+    min-width: 40px;
+    min-height: 40px;
 }
 .text{
     width:100%;
+}
+.enviar-mensaje{
+    margin: 3px;
 }
 .btn-submit{
     width:100%;
@@ -193,4 +216,52 @@ main{
 }
 .negro{
     color:black;
+}
+
+/*****MEDIA QUERYS*****/
+@media (max-width:767px){
+    .menu-header{
+        min-width: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .contacto{
+        display:flex;
+        justify-content: flex-start;
+    }
+    .texto-creative{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom:10px;
+    }
+    .texto-creative p{
+        text-align: center;
+    }
+    .triangle-template{
+        display: flex;
+        justify-content: center;
+    }
+    .texto{
+        text-align:center;
+    }
+    .centertext{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .derecha{
+        text-align: center;
+    }
+}
+
+@media (max-width:450px){
+    .menu-header{
+        min-width: 200px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .fa-search{
+        order:-1;
+    }
 }
