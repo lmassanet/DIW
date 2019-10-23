@@ -246,6 +246,8 @@ main{
         min-width: 20px;
         display: flex;
         flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-self: center;
     }
     .contacto{
         display:flex;
@@ -290,6 +292,7 @@ main{
         display:flex;
         justify-content: flex-end;
         align-self: center;
+        
     }
 }
 
