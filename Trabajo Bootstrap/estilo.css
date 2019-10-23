@@ -153,6 +153,7 @@ main{
     display: flex;
     flex-flow: column wrap;
     align-self: center;
+    text-align: center;
 }
 .triangle-template{
     display: flex;
@@ -262,9 +263,7 @@ main{
         display: flex;
         justify-content: center;
     }
-    .texto{
-        text-align:center;
-    }
+  
     .centertext{
         display: flex;
         align-items: center;
