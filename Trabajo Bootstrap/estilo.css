@@ -248,6 +248,8 @@ main{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+        text-align: center;
         padding-bottom:10px;
     }
     .triangle-template{
@@ -279,6 +281,11 @@ main{
         flex-wrap: wrap;
         flex-direction: row-reverse;  
     }
+    .menu-header2{
+        display:flex;
+        justify-content: flex-end;
+        align-self: center;
+    }
 }
 
 @media (max-width:345px){
@@ -292,5 +299,9 @@ main{
         display: flex;
         justify-content: flex-start;
         min-width: 200px;   
+    }
+    .menu-header2{
+        display:flex;
+        justify-content: flex-start;
     }
 }
