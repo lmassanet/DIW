@@ -4,7 +4,6 @@
   }
 *{
     font-family: "WebFont";
-    border: 1px solid red;
 }
 h5{
     color:grey;
@@ -275,8 +274,7 @@ main{
     .div-logo{
         order:1;
     }
-    
-    .prueba{
+    .header-sm{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row-reverse;  
@@ -284,5 +282,15 @@ main{
 }
 
 @media (max-width:345px){
-
+    .div-logo{
+        order:0;
+    }
+    .header-sm{
+       justify-content: flex-end;
+    }
+    .menu-header{
+        display: flex;
+        justify-content: flex-start;
+        min-width: 200px;   
+    }
 }
