@@ -4,13 +4,12 @@
   }
 *{
     font-family: "WebFont";
+    border: 1px solid red;
 }
 h5{
     color:grey;
 }
-.container{
-    width:90%;
-}
+
 
 /***HEADER***/
 .menu-header{
@@ -26,8 +25,8 @@ h5{
     border-radius: 10%;
 }
 .logo{
-    width:150px;
-    height: 50px;
+    width:190px;
+    height: 55px;
     padding-right:20px;
 }
 .nav-link{
@@ -53,6 +52,12 @@ h5{
 .dropdown-menu{
     border-color:rgb(58, 58, 236);
 }
+.icono-buscar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .fa-search{
     color:rgb(58, 58, 236);
 }
@@ -61,12 +66,12 @@ i{
 }
 /**MAIN**/
 main{
-    margin-top:5%;
+    margin-top:10%;
 }
 .fondo-montana{
     background-image: url(Imagenes/slider-bg.png);
     background-repeat: repeat-x;
-    background-position-y: 15%;
+    background-position-y: bottom;
 }
 
 .btn-sign-up{
@@ -81,36 +86,46 @@ main{
 }
 
 .texto-creative{
-    margin-top:5%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.foto-montada{
+    position: relative;
+    width:100%;
 }
 .mountain{
     width:90%;
 }
 .casa{
-    position: relative;
-    top: -26%;
-    right: 2%;
-    width: 61%;
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    width: 58%;
 }
 .pajaros1{
-    position: relative;
-    top: -36%;
-    left: 5%;
-    width: 19%;
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    width: 20%;
 }
 .pajaros2{
-    position: relative;
-    top: -45%;
-    right: 7%;
-    width: 10%;
-}
-.sol{
-    position: relative;
-    top: -62%;
-    left: 25%;
+    position: absolute;
+    top: 40%;
+    left: 72%;
     width: 13%;
 }
-
+.sol{
+    position: absolute;
+    top: 47%;
+    left: 24%;
+    width: 13%;
+}
+.margen-seccion{
+    margin-top:5%;
+}
 .icons{
     height:120px;
     width:100%;
@@ -137,6 +152,7 @@ main{
 .triangle-template{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .imagenes{
     width:100%;
@@ -235,9 +251,6 @@ main{
         justify-content: center;
         padding-bottom:10px;
     }
-    .texto-creative p{
-        text-align: center;
-    }
     .triangle-template{
         display: flex;
         justify-content: center;
@@ -253,15 +266,23 @@ main{
     .derecha{
         text-align: center;
     }
-}
-
-@media (max-width:450px){
-    .menu-header{
-        min-width: 200px;
-        display: flex;
-        justify-content: flex-start;
+    .fondo-montana{
+        background-image: url();
     }
-    .fa-search{
+    .icono-buscar{
         order:-1;
     }
+    .div-logo{
+        order:1;
+    }
+    
+    .prueba{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;  
+    }
+}
+
+@media (max-width:345px){
+
 }
