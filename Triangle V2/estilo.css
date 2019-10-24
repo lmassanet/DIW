@@ -101,33 +101,84 @@ main{
     position: relative;
     width:100%;
 }
+/***ANIMATIONS***/
+
+@keyframes movimiento-montana {
+    0%   {left:0%; top:-1000px;}
+    100% {left:0%; top:0px;}
+  }
+
+@keyframes movimiento-casa {
+    0%   {visibility:hidden; left:18%; top:-100%;}
+    100% {visibility:visible; left:18%; top:55%;}
+  }
+
+@keyframes movimiento-pajaros1 {
+    0%   {visibility:hidden; left:-5%; top:55%;}
+    100% {visibility:visible; left:2%; top:55%;}
+  }
+
+@keyframes movimiento-pajaros2 {
+    0%   {visibility:hidden; left:80%; top:40%;}
+    100% {visibility:visible; left:72%; top:40%;}
+  }
+
+@keyframes movimiento-sol {
+    0%   {width:0%;}
+    100% {width:13%;}
+  }
+
+/***************/
 .mountain{
     width:90%;
+    position: relative;
+    animation-name: movimiento-montana;
+    animation-duration: 0.3s;
 }
 .casa{
     position: absolute;
     top: 55%;
     left: 18%;
     width: 58%;
+    visibility: hidden;
+    animation-name: movimiento-casa;
+    animation-duration: 0.3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
 }
 .pajaros1{
     position: absolute;
     top: 55%;
     left: 2%;
     width: 20%;
+    visibility: hidden;
+    animation-name: movimiento-pajaros1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
 }
 .pajaros2{
     position: absolute;
     top: 40%;
     left: 72%;
     width: 13%;
+    visibility: hidden;
+    animation-name: movimiento-pajaros2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
 }
 .sol{
     position: absolute;
     top: 47%;
     left: 24%;
-    width: 13%;
+    width: 0%;
+    animation-name: movimiento-sol;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
 }
+
 .margen-seccion{
     margin-top:5%;
 }
