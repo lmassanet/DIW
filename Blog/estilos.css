@@ -1,0 +1,162 @@
+*{
+    border:1px solid red;
+}
+h4,h5,h6{
+    font-weight: bold;
+}
+p,a{
+    font-size: small;
+}
+p,i{
+    color:grey;
+    line-height: initial;
+}
+.texto-naranja{
+    color: orange;
+}
+.texto-blanco{
+    color:white;
+}
+.icono{
+    margin-right: 5%;
+    border: 0px;
+}
+
+/****HEADER****/
+.menu-inicio{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width:150px;
+    height:50px;
+}
+.menu-icono{
+    background-color: orange;
+}
+/****MAIN****/
+.fondo{
+    background-image: url(Imagenes/blog1.jpg);
+    background-size: cover;
+}
+.caja-Tiago{
+    background-color: white;
+    padding: 50px;
+    max-width: 55%;
+    margin: 10%;
+}
+.enlace{
+    color:rgb(54, 52, 52);
+    text-decoration-line: underline;
+}
+
+.alinear-centro{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-blog{
+    width:100%;
+}
+.foto{
+    max-width: 100px;
+    max-height: 150px;
+}
+.texto-blog{
+    font-size: x-small;
+}
+.final-blog{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.fondo-subscribe{
+    background-color: #1C1D34;
+}
+.subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3%;
+}
+.formulario-email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email-subscribe{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.email{
+    border-radius: 0px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+.btn-subscribe{
+    color: white;
+    background-color: orange;
+    border-radius: 0px;
+}
+
+.padtop{
+    padding-top:20%;
+}
+section{
+    margin-top: 3%;
+}
+/****FOOTER****/
+footer{
+    margin-top:3%;
+}
+.fondo-footer{
+    background-color: #F7F7FA;
+    padding-top:2%;
+}
+
+.logo-t{
+    width: 30px;
+    height: 30px;
+}
+
+.tags-footer{
+    color: grey;
+    background-color: rgb(235, 235, 235);
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.logo-footer{
+    width:100px;
+    height:30px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1%;
+}
+
+/**MEDIA QUERYS***/
+@media (max-width:575px){
+    .fa-search{
+        display: none;
+    }
+    .menu-inicio{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .caja-Tiago{
+        background-color: white;
+        padding: 20px;
+        max-width: 80%;
+        margin: 10%;
+    }
+}
