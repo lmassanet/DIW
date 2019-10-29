@@ -1,6 +1,4 @@
-*{
-    border:1px solid red;
-}
+
 h4,h5,h6{
     font-weight: bold;
 }
@@ -82,7 +80,7 @@ p,i{
 }
 .formulario-email{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .email-subscribe{
@@ -93,11 +91,13 @@ p,i{
     border-radius: 0px;
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.2);
+    width:70%;
 }
 .btn-subscribe{
     color: white;
     background-color: orange;
     border-radius: 0px;
+    width:30%;
 }
 
 .padtop{
@@ -159,4 +159,5 @@ footer{
         max-width: 80%;
         margin: 10%;
     }
+    
 }
