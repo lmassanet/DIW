@@ -21,6 +21,10 @@ p,i{
    border: transparent;
 }
 
+.container-fluid{
+    padding: 0px;
+}
+
 /****HEADER****/
 .menu-inicio{
     display: flex;
