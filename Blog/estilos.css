@@ -17,7 +17,8 @@ p,i{
 }
 .icono{
     margin-right: 5%;
-    border: 0px;
+   background-color: transparent;
+   border: transparent;
 }
 
 /****HEADER****/
@@ -29,6 +30,11 @@ p,i{
     width:150px;
     height:50px;
 }
+
+.homepage{
+    color: orange!important;
+}
+
 .menu-icono{
     background-color: orange;
 }
