@@ -116,12 +116,15 @@ p,i{
 section{
     margin-top: 3%;
 }
+.fondo-blanco{
+    background-color: white;
+}
 /****FOOTER****/
 footer{
     margin-top:3%;
 }
 .fondo-footer{
-    background-color: #F7F7FA;
+    background-color: rgb(225, 225, 230);
     padding-top:2%;
 }
 
