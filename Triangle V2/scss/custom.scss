@@ -1,0 +1,11 @@
+@import "../bootstrap/scss/functions"; //Importamos las funciones para poder usar las variables de Bootstrap
+@import "../bootstrap/scss/variables"; //Importamos las variables para poder usar las de Bootstrap (EJ: Los colores)
+
+$navbar-light-color: $black;
+$navbar-light-hover-color: $blue;
+$navbar-light-active-color: $blue;
+$dropdown-border-color:  $blue;
+$dropdown-link-hover-color:$white;
+$dropdown-link-hover-bg: $blue;
+
+@import "../bootstrap/scss/bootstrap";

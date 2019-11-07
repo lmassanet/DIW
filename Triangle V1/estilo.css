@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "WebFont";
+    src: url("Font/fontawesome-webfont.woff");
+  }
+*{
+    font-family: "WebFont";
+}
+h5{
+    color:#7B7B7B;
+}
+h4{
+    color:#434343;
+}
+
+/***HEADER***/
+.menu-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width:600px;
+}
+.azul{
+    color:#53ABF6;
+    border: 1px solid #53ABF6;
+    padding: 5px 10px;
+    border-radius: 10%;
+}
+.logo{
+    width:190px;
+    height: 55px;
+    padding-right:20px;
+}
+.nav-link{
+    color:black;
+}
+.nav-home{
+    color:#53ABF6;
+}
+.contacto{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contacto i{
+    padding: 7px;
+}
+.contacto .fab{
+    color:#CCCCCC;
+}
+.contacto .fas{
+    color:#CCCCCC;
+}
+.dropdown-menu{
+    border-color:#53ABF6;
+}
+.dropdown-item{
+    color:#B0B0B2;
+}
+.icono-buscar{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fa-search{
+    color:#53ABF6;
+}
+i{
+    border:none;
+}
+/**MAIN**/
+main{
+    margin-top:10%;
+}
+.fondo-montana{
+    background-image: url(Imagenes/slider-bg.png);
+    background-repeat: repeat-x;
+    background-position-y: bottom;
+}
+
+.btn-sign-up{
+    color: #53ABF6;
+    border-color: #53ABF6;
+    border-radius: 10%;
+    padding:8px 15px;
+}
+
+.creative{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.texto-creative{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column;
+}
+
+.foto-montada{
+    position: relative;
+    width:100%;
+}
+/***ANIMATIONS***/
+
+@keyframes movimiento-montana {
+    0%   {left:0%; top:-1000px;}
+    100% {left:0%; top:0px;}
+  }
+
+@keyframes movimiento-casa {
+    0%   {visibility:hidden; left:18%; top:-100%;}
+    100% {visibility:visible; left:18%; top:55%;}
+  }
+
+@keyframes movimiento-pajaros1 {
+    0%   {visibility:hidden; left:-5%; top:55%;}
+    100% {visibility:visible; left:2%; top:55%;}
+  }
+
+@keyframes movimiento-pajaros2 {
+    0%   {visibility:hidden; left:80%; top:40%;}
+    100% {visibility:visible; left:72%; top:40%;}
+  }
+
+@keyframes movimiento-sol {
+    0%   {width:0%;}
+    100% {width:13%;}
+  }
+
+/***************/
+.mountain{
+    width:90%;
+    position: relative;
+    animation-name: movimiento-montana;
+    animation-duration: 0.3s;
+}
+.casa{
+    position: absolute;
+    top: 55%;
+    left: 18%;
+    width: 58%;
+    visibility: hidden;
+    animation-name: movimiento-casa;
+    animation-duration: 0.3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+.pajaros1{
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    width: 20%;
+    visibility: hidden;
+    animation-name: movimiento-pajaros1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+.pajaros2{
+    position: absolute;
+    top: 40%;
+    left: 72%;
+    width: 13%;
+    visibility: hidden;
+    animation-name: movimiento-pajaros2;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+.sol{
+    position: absolute;
+    top: 47%;
+    left: 24%;
+    width: 0%;
+    animation-name: movimiento-sol;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+}
+
+.margen-seccion{
+    margin-top:5%;
+}
+.icons{
+    height:120px;
+    width:100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.alinear-centro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.centro{
+    text-align: center;
+}
+.fondo-tour{
+    background-image: url(Imagenes/tour-bg.png);
+}
+.texto{
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+    text-align: center;
+}
+.triangle-template{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenes{
+    width:100%;
+}
+.imagenHappyClients{
+    width:100%;
+    max-width: 230px;
+}
+.texto-der {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.texto-izq{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+.derecha{
+    text-align: end;
+}
+.align-center{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.texto-centro{
+    text-align: center;
+}
+.espacios-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/***FOOTER***/
+.fondo-footer{
+    background-image: url(Imagenes/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.under-image{
+    width:100%;
+}
+
+.rojo{
+    color:red;
+}
+.comillas{
+    font-size: 25px;
+}
+.fotos-footer{
+    width:100%;
+    max-width: 90px;
+    max-height: 90px;
+    min-width: 40px;
+    min-height: 40px;
+}
+.text{
+    width:100%;
+}
+.enviar-mensaje{
+    margin: 3px;
+}
+.btn-submit{
+    width:100%;
+    border-radius:3%;
+    padding: 5px;
+    color:white;
+    background-color: #53ABF6;
+}
+.blanco{
+    color:White;
+}
+.negro{
+    color:black;
+}
+
+/*****MEDIA QUERYS*****/
+@media (max-width:767px){
+    .menu-header{
+        min-width: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-self: center;
+    }
+    .contacto{
+        display:flex;
+        justify-content: flex-start;
+    }
+    .texto-creative{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom:10px;
+    }
+    .triangle-template{
+        display: flex;
+        justify-content: center;
+    }
+  
+    .centertext{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .derecha{
+        text-align: center;
+    }
+    .fondo-montana{
+        background-image: url();
+    }
+    .icono-buscar{
+        order:-1;
+    }
+    .div-logo{
+        order:1;
+    }
+    .header-sm{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;  
+    }
+    .menu-header2{
+        display:flex;
+        justify-content: flex-end;
+        align-self: center;
+    }
+}
+
+@media (max-width:345px){
+    .div-logo{
+        order:0;
+    }
+    .header-sm{
+       justify-content: flex-end;
+    }
+    .menu-header{
+        display: flex;
+        justify-content: flex-start;
+        min-width: 200px;   
+    }
+    .menu-header2{
+        display:flex;
+        justify-content: flex-start;
+    }
+}

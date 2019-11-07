@@ -1,1 +1,12 @@
+@import "../bootstrap/scss/functions"; //Importamos las funciones para poder usar las variables de Bootstrap
+@import "../bootstrap/scss/variables"; //Importamos las variables para poder usar las de Bootstrap (EJ: Los colores)
+
+$body-bg:$blue;
+
+.btn{
+    box-shadow: 10px 5px $black;
+}
+
+
+
 @import "../bootstrap/scss/bootstrap";

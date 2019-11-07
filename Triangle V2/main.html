@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Trabajo Bootstrap</title>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">  --> 
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -26,36 +27,51 @@
                             <i type="button" class="fab fa-linkedin-in"></i>
                         </div>
                 </div>
-                <div class="col-7 col-sm-3 col-md-3 div-logo p-0">
-                    <img src="Imagenes/logo.png" class="logo">
-                </div>
-                <div class="col-5 col-sm-9 col-md-8 menu-header p-0">
-                    <nav class="navbar navbar-expand-md p-0 menu-header2">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-                            <i class="fas fa-bars fa-1x azul"></i>
+
+                <div class="col-11 col-sm-11 col-md-11 div-logo p-0">
+                    <nav class="navbar navbar-expand-sm navbar-light bg-white">
+                        <img src="Imagenes/logo.png" class="navbar-brand logo"></img>
+                        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="navbar-nav p-10">
-                           <li class="nav-item"><a href="#" class="nav-link nav-home">HOME</a></li>
-                           <li class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PAGES</a>
-                                <div class="dropdown-menu" >
-                                    <a href="#" class="dropdown-item">About</a>
-                                    <a href="#" class="dropdown-item">About 2</a>
-                                    <a href="#" class="dropdown-item">Services</a>
-                                    <a href="#" class="dropdown-item">Pricing</a>
-                                    <a href="#" class="dropdown-item">Contact Us</a>
-                                    <a href="#" class="dropdown-item">Contact Us 2</a>
-                                    <a href="#" class="dropdown-item">404 Error</a>
-                                    <a href="#" class="dropdown-item">Coming Soon</a>
-                                </div>
-                           </li>
-                           <li class="nav-item"><a href="#" class="nav-link">BLOG</a></li>
-                           <li class="nav-item"><a href="#" class="nav-link">PORTFOLIO</a></li>
-                           <li class="nav-item"><a href="#" class="nav-link">SHORTCODES</a></li>
-                       </ul>
-                    </div>
-                    </nav>     
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PAGES</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PORTFOLIO</a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                        <a class="dropdown-item" href="#">Action 1</a>
+                                        <a class="dropdown-item" href="#">Action 2</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">SHORTCODES</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
                 <div class="col-1 col-sm-1 col-md-1 icono-buscar p-0">
                     <i type="button" class="fas fa-search"></i>
