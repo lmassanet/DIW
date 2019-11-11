@@ -2817,7 +2817,7 @@ input[type=button].btn-block {
   float: left;
   min-width: 10rem;
   padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
+  margin: 20% 0 0;
   font-size: 1rem;
   color: #212529;
   text-align: left;
@@ -2886,7 +2886,7 @@ input[type=button].btn-block {
   top: auto;
   bottom: 100%;
   margin-top: 0;
-  margin-bottom: 0.125rem;
+  margin-bottom: 20%;
 }
 .dropup .dropdown-toggle::after {
   display: inline-block;
@@ -2907,7 +2907,7 @@ input[type=button].btn-block {
   right: auto;
   left: 100%;
   margin-top: 0;
-  margin-left: 0.125rem;
+  margin-left: 20%;
 }
 .dropright .dropdown-toggle::after {
   display: inline-block;
@@ -2931,7 +2931,7 @@ input[type=button].btn-block {
   right: 100%;
   left: auto;
   margin-top: 0;
-  margin-right: 0.125rem;
+  margin-right: 20%;
 }
 .dropleft .dropdown-toggle::after {
   display: inline-block;
@@ -2976,7 +2976,7 @@ input[type=button].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #6c757d;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3014,7 +3014,7 @@ input[type=button].btn-block {
 .dropdown-item-text {
   display: block;
   padding: 0.25rem 1.5rem;
-  color: #212529;
+  color: #6c757d;
 }
 
 .btn-group,
@@ -3765,7 +3765,7 @@ input[type=button].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0px;
 }
 .navbar > .container,
 .navbar > .container-fluid {
@@ -3779,7 +3779,7 @@ input[type=button].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 0px;
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
@@ -4012,7 +4012,7 @@ input[type=button].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #000;
+  color: #6c757d;
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: #007bff;
@@ -4027,14 +4027,14 @@ input[type=button].btn-block {
   color: #007bff;
 }
 .navbar-light .navbar-toggler {
-  color: #000;
+  color: #6c757d;
   border-color: rgba(0, 0, 0, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 .navbar-light .navbar-text {
-  color: #000;
+  color: #6c757d;
 }
 .navbar-light .navbar-text a {
   color: #007bff;

@@ -30,12 +30,7 @@ h4{
     height: 55px;
     padding-right:20px;
 }
-.nav-link{
-    color:black;
-}
-.nav-home{
-    color:#53ABF6;
-}
+
 .contacto{
     display: flex;
     justify-content: flex-end;
@@ -50,16 +45,11 @@ h4{
 .contacto .fas{
     color:#CCCCCC;
 }
-.dropdown-menu{
-    border-color:#53ABF6;
-}
-.dropdown-item{
-    color:#B0B0B2;
-}
+
 .icono-buscar{
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 .fa-search{
@@ -293,13 +283,6 @@ main{
 
 /*****MEDIA QUERYS*****/
 @media (max-width:767px){
-    .menu-header{
-        min-width: 20px;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: flex-end;
-        align-self: center;
-    }
     .contacto{
         display:flex;
         justify-content: flex-start;
@@ -337,7 +320,7 @@ main{
     .header-sm{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row-reverse;  
+        flex-direction: row-reverse;
     }
     .menu-header2{
         display:flex;
