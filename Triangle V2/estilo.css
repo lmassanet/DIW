@@ -308,9 +308,6 @@ main{
     .derecha{
         text-align: center;
     }
-    .fondo-montana{
-        background-image: url();
-    }
     .icono-buscar{
         order:-1;
     }

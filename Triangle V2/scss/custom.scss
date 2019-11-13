@@ -11,4 +11,8 @@ $dropdown-link-hover-bg: $blue;
 $dropdown-spacer: 20%;
 $navbar-padding-x: 0px;
 
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
 @import "../bootstrap/scss/bootstrap";

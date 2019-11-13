@@ -1,12 +1,62 @@
 @import "../bootstrap/scss/functions"; //Importamos las funciones para poder usar las variables de Bootstrap
 @import "../bootstrap/scss/variables"; //Importamos las variables para poder usar las de Bootstrap (EJ: Los colores)
 
-$body-bg:$blue;
+$body-bg: $blue;
 
+//COLORES
+$mi_primario: yellow;
+$mi_secundario: green;
+$mi_success: blue;
+$mi_info: $light;
+$mi_warning: orange;
+$mi_danger: rgb(126, 6, 6);
+$mi_light: white;
+$mi_dark: rgb(97, 93, 93);
+
+$theme-colors:(
+    "primary":    $mi_primario,
+    "secondary":  $mi_secundario,
+    "success":    $mi_success,
+    "info":       $mi_info,
+    "warning":    $mi_warning,
+    "danger":     $mi_danger,
+    "light":      $mi_light,
+    "dark":       $mi_dark
+);
+
+//BORDER RADIUS
+$btn-border-radius: 30px;
+
+//BORDES SOMBREADOS
 .btn{
     box-shadow: 10px 5px $black;
 }
 
+//PUNTOS DE RUPTURA
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 768px,
+  laura: 850px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$container-max-widths: (
+  sm: 570px,
+  md: 720px,
+  laura: 820px,
+  lg: 960px,
+  xl: 1140px
+);
+
+//PADDING
+$btn-padding-y: 10px;
+$btn-padding-x: 10px;
+$pagination-padding-y: 10px;
+$pagination-padding-x: 15px;
+   
+//MARGIN
 
 
 @import "../bootstrap/scss/bootstrap";
