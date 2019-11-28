@@ -1,0 +1,28 @@
+/*CONTENT*/
+.kittens {
+    list-style-type: none;
+    padding: 0;
+
+    li{
+        border-radius:$border--radius;
+        float: left;
+        margin-bottom: 2em;
+        text-align: center;
+        width: 1200/4 - 0px;
+
+        &:hover{
+            @include transformaciones(1.1);
+        }
+
+        img{
+            border: $img--border--width solid $kittens--img--border;
+            border-radius: $border--radius;
+        }
+
+        label{
+            font-weight: bold;
+        }
+
+    }
+
+  }

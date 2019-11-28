@@ -1,0 +1,43 @@
+/*HEADER*/
+.header{
+    background: $header--bg;
+    border-bottom: $header--border--bottom--width solid $header--border--bottom--color;
+    padding: 1em;
+
+    nav{
+        float: right;
+
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li{
+            display: inline-block;
+        }
+
+        a{
+            background: $a--color ;
+            border-radius: $border--radius;
+            color: $header--nav--a--color;
+            display: block;
+            margin-right: 1em;
+            padding: .5em 1em;
+            text-decoration: none;
+
+            &:hover{
+                background-color:$header--nav--a--hover--bg;
+                @include transformaciones(1.1);
+            }
+        }
+    }
+
+    h1{
+        color: $header--h1--color;
+        font-family: $letra--header--h1, cursive;
+        font-size: 3em;
+        margin: .25em 0;
+        text-shadow: 1px 1px 0px $header--h1--shadow--color;
+    }
+
+  }

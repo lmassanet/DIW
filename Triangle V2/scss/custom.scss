@@ -1,6 +1,53 @@
+@import "../css/_estilo";
 @import "../bootstrap/scss/functions"; //Importamos las funciones para poder usar las variables de Bootstrap
 @import "../bootstrap/scss/variables"; //Importamos las variables para poder usar las de Bootstrap (EJ: Los colores)
 
+%convertFlex{
+    display: flex;
+    flex-wrap: wrap;
+}
+%alinearFinal{
+    @extend %convertFlex;
+    justify-content: flex-end;
+    align-items: center;
+}
+%alinearCentro{
+    @extend %convertFlex;
+    justify-content: center;
+    align-items: center;
+}
+//HEADER
+header{
+    nav > img{
+        width:190px;
+        height: 55px;
+        padding-right:20px;
+    }
+    .contacto{
+        @extend %alinearFinal;
+        > i{
+            padding: 7px;
+        }
+        .fas,.fab{
+            color:#CCCCCC;
+            background-color: transparent;
+        }
+    }
+    .icono-buscar{
+        @extend %alinearFinal;
+        > i{
+            padding: 7px;
+        }
+        .fas{
+            color:#53ABF6;
+            background-color: transparent;
+        }
+
+    }
+}
+
+
+// MENU
 $navbar-light-color: $gray-600;
 $navbar-light-hover-color: $blue;
 $navbar-light-active-color: $blue;
@@ -15,4 +62,30 @@ $navbar-padding-x: 0px;
     display: block;
 }
 
+//MAIN
+main{
+    margin-top:10%;
+    .fondo_montana{
+        background-image: url(Imagenes/slider-bg.png);
+        background-repeat: repeat-x;
+        background-position-y: bottom;
+        article>div{
+            @extend %convertFlex;
+            .texto-creative{
+                @extend %alinearCentro;
+                align-items: flex-start;
+                flex-flow: column;
+            }
+        }
+    }
+    section{
+        margin-top:5%;
+    }
+}
+
+
+
+
 @import "../bootstrap/scss/bootstrap";
+
+ 

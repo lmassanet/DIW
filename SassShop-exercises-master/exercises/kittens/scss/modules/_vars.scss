@@ -1,0 +1,53 @@
+/* COLORES */
+$azul-claro: #506F8E;
+$gris-claro: #AEA4AD;
+$blanco-light: #EEE4DA;
+$blanco: #fff;
+$gris-light :#D9D0CB;
+
+/* Colores funcionales*/
+$body--bg : $blanco-light;
+
+$a--color : $azul-claro;
+$a--hover--color : $gris-claro;
+
+$header--bg: $gris-claro;
+$header--border--bottom--color: $blanco;
+$header--h1--color: $azul-claro;
+$header--h1--shadow--color: $gris-light;
+$header--nav--a--color: $blanco-light;
+$header--nav--a--hover--bg: darken($gris-claro,20);
+ 
+$kittens--img--border: $blanco;
+$subcontent--bg: $blanco;
+$news--events--li--border--bottom: $blanco-light;
+
+$btn--color: $gris-claro;
+$btn--hover--color: $azul-claro;
+$location--dt--color: $azul-claro; 
+
+$footer--bg : $azul-claro;
+$footer--border--top--color: $blanco-light;
+$footer--copy--color: $gris-light;
+$footer--nav--a--color: $gris-claro;
+$footer--nav--a--hover--color: $gris-light;
+
+/* FUENTES */
+$gothic : 'Didact Gothic';
+$sans-serif: sans-serif;
+$ribeye : 'Ribeye Marrow';
+
+$letra--body: $gothic,$sans-serif;
+$letra--header--h1: $ribeye;
+
+/* GROSOR DE BORDES */
+$border--width--10: 10px;
+$border--width--1: 1px;
+
+$li--border--width: $border--width--1;
+$img--border--width: $border--width--10;
+$footer--border--top--width: $border--width--10;
+$header--border--bottom--width: $border--width--10;
+
+/* RADIO DEL BORDE */
+$border--radius: 20px;

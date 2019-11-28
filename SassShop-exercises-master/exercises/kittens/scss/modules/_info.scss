@@ -1,0 +1,63 @@
+  .subcontent {
+    background: $subcontent--bg;
+    padding: 2em 0 3em;
+  }
+  
+  .search {
+    float: right;
+  }
+  
+  .news, .events, .location {
+    float: left;
+    padding-right: 4em;
+    width: 40%;
+  }
+
+  .news, .events{
+
+      ul{
+        list-style-type: none;
+        padding: 0;
+      }
+
+      li{
+        border-bottom: $li--border--width dotted $news--events--li--border--bottom;
+        margin-bottom: 1em;
+        padding-bottom: 1em;
+        padding-right: 1em;
+
+        a{
+            font-size: 1.25em;
+            text-decoration: none;
+        }
+
+      }
+
+      .btn{
+        color: $btn--color;
+        font-size: 1em;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover{
+            color: $btn--hover--color;
+        }
+
+      }
+
+  }
+
+  .location{
+    padding-right: 0;
+    width: 20%;
+
+    dt{
+        color: $location--dt--color;
+        font-weight: bold;
+    }
+
+    dd{
+        margin: 0;
+    }
+
+  }
