@@ -1,0 +1,14 @@
+@import "../bootstrap/scss/functions"; //Importamos las funciones para poder usar las variables de Bootstrap
+@import "../bootstrap/scss/variables"; //Importamos las variables para poder usar las de Bootstrap (EJ: Los colores)
+
+$container-max-widths: (
+  sm: 600px,
+  md: 800px,
+  lg: 1000px,
+  xl: 1200px
+);
+
+
+
+
+@import "../bootstrap/scss/bootstrap";
