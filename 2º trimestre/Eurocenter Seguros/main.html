@@ -3,13 +3,16 @@
   <head>
     <title>Title</title>
     <!--ICONO FALTA-->
-    <link rel="icon" sizes="114x114" href="">
+    <link rel="icon" sizes="144x144" href="">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap SCSS -->
     <link rel="stylesheet" href="estilos.css">
+    <!--CSS Slide-->
+    <link rel="stylesheet" href="css/sheetslider.min.css"/>
+    <link href="//cdn.jsdelivr.net/gh/zkreations/SheetSlider@2.2.0/dist/sheetslider.min.js" rel="stylesheet"/>
   </head>
   <body>
     <header class="container-fluid">
@@ -62,7 +65,7 @@
                                 <a class="nav-link" href="#">Contacto</a>
                             </li>
                             </ul>
-                            <form class="form-inline my-2 my-lg-0">
+                            <form class="form-inline">
                                 <a name="" id="" class="btn btn-primary" href="#" role="button">TU CUENTA</a>
                                 <a name="" id="" class="btn btn-primary" href="#" role="button">REGISTRO</a>
                             </form>
@@ -77,13 +80,114 @@
         </div>
     </header>
     <main class="container-fluid">
-        <div class="row">
-            <div class="col-md-12">
-                
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Slide-->
+                    <div class="sheetSlider sh--fade">
+                        <input id="s1" type="radio" name="slide1" checked/> 
+                        <input id="s2" type="radio" name="slide1"/> 
+                        <input id="s3" type="radio" name="slide1"/>
+                        <input id="s4" type="radio" name="slide1"/>
+                        <div class="sh__content">
+                    
+                        <!-- Slider Items -->
+                        <div class="sh__item">
+                                <img
+                                sizes="100vw"
+                                srcset="img_dest/seguro-vida-sm600w.png 600w,
+                                img_dest/seguro-vida-md800w.png 800w,
+                                img_dest/seguro-vida-lg1000w.png 1000w,
+                                img_dest/seguro-vida-xl1200w.png 1200w"
+                                src="img_dest/seguro-vida-xl1200w.png 1200w"/>
 
+                        </div>
+
+                        <div class="sh__item">
+                                <img
+                                sizes="100vw"
+                                srcset="img_dest/seguro-profesional-sm600w.jpg 600w,
+                                img_dest/seguro-profesional-md800w.jpg 800w,
+                                img_dest/seguro-profesional-lg1000w.jpg 1000w,
+                                img_dest/seguro-profesional-xl1200w.jpg 1200w"
+                                src="img_dest/seguro-profesional-xl1200w.jpg 1200w" />
+                        </div>
+
+                        <div class="sh__item">
+                                <img
+                                sizes="100vw"
+                                srcset="img_dest/gafas-sm600w.jpg 600w,
+                                img_dest/gafas-md800w.jpg 800w,
+                                img_dest/gafas-lg1000w.jpg 1000w,
+                                img_dest/gafas-xl1200w.jpg 1200w"
+                                src="img_dest/gafas-xl1200w.jpg 1200w" />
+                        </div>
+                    
+                        <div class="sh__item">
+                                <img
+                                sizes="100vw"
+                                srcset="img_dest/oficina-sm600w.jpg 600w,
+                                img_dest/oficina-md800w.jpg 800w,
+                                img_dest/oficina-lg1000w.jpg 1000w,
+                                img_dest/oficina-xl1200w.jpg 1200w"
+                                src="img_dest/oficina-xl1200w.jpg 1200w" />
+                        </div>
+                    
+                        
+                        </div>
+                        <!--botones-->
+                        <div class="sh__btns">
+                        <label for="s1"></label>
+                        <label for="s2"></label>
+                        <label for="s3"></label>
+                        <label for="s4"></label>
+                        </div>
+                    
+                        <!--flechas-->
+                        <div class="sh__arrows">
+                        <label for="s1"></label>
+                        <label for="s2"></label>
+                        <label for="s3"></label>
+                        <label for="s4"></label>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Las mejores prestaciones en seguros de</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href=""><img src="img_dest/seguro-resp-civil-product-300x300.jpg" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img src="img_dest/seguro-patrimonio-product-300x300.jpg" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""></a><img src="img_dest/seguro-coche-product-300x300.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href=""><img src="img_dest/seguro-salud-product-300x300.jpg" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img src="img_dest/seguro-vida-product-300x300.jpg" alt=""></a>
+                </div>
+                <div class="col-md-4">
+                    <a href=""><img src="img_dest/seguro-decesos-product-300x300.jpg" alt=""></a>
+                </div>
             </div>
         </div>
+        <section>
 
+        </section>
 
     </main>
 

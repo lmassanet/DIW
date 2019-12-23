@@ -12,12 +12,11 @@ module.exports = function(grunt) {
                 options: {          
                     engine: "gm",          
                     sizes: [            
-                        { name: "sm", suffix: "_1x", quality: 70, width: 120 },            
-                        { name: "sm", suffix: "_2x", quality: 70, width: 240 },            
-                        { name: "md", suffix: "_1x", quality: 70, width: 120 },            
-                        { name: "md", suffix: "_2x", quality: 70, width: 240 },            
-                        { name: "lg", suffix: "_1x", quality: 70, width: 180 },            
-                        { name: "lg", suffix: "_2x", quality: 70, width: 360 }          
+                        { name: "xs", suffix: "300w", quality: 70, width: 300 },            
+                        { name: "sm", suffix: "600w", quality: 70, width: 600 },                       
+                        { name: "md", suffix: "800w", quality: 70, width: 800 },            
+                        { name: "lg", suffix: "1000w", quality: 70, width: 1000 },            
+                        { name: "xl", suffix: "1200w", quality: 70, width: 1200 }          
                     ]        
                 },        
                     files: [          
